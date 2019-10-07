@@ -1,3 +1,5 @@
+***This is  a fork of the official diagnostic plugin, stubbing the bluetooth diagnostic on ios to avoid prompting the user***
+
 Cordova diagnostic plugin [![Latest Stable Version](https://img.shields.io/npm/v/cordova.plugins.diagnostic.svg)](https://www.npmjs.com/package/cordova.plugins.diagnostic) [![Total Downloads](https://img.shields.io/npm/dt/cordova.plugins.diagnostic.svg)](https://npm-stat.com/charts.html?package=cordova.plugins.diagnostic)
 =========================
 

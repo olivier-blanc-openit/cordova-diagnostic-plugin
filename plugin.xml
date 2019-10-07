@@ -77,8 +77,6 @@
         <header-file src="src/ios/Diagnostic_Bluetooth.h" />
         <source-file src="src/ios/Diagnostic_Bluetooth.m" />
 
-        <framework src="CoreBluetooth.framework" />
-
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
             <string>This app requires Bluetooth access to function properly.</string>
         </config-file>

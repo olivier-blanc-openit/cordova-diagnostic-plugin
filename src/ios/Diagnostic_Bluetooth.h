@@ -9,12 +9,9 @@
 #import <Cordova/CDV.h>
 #import <Cordova/CDVPlugin.h>
 #import "Diagnostic.h"
-#import <CoreBluetooth/CoreBluetooth.h>
 
 
-@interface Diagnostic_Bluetooth : CDVPlugin <CBCentralManagerDelegate>
-
-@property (nonatomic, retain) CBCentralManager* bluetoothManager;
+@interface Diagnostic_Bluetooth : CDVPlugin
 
 - (void) isBluetoothAvailable: (CDVInvokedUrlCommand*)command;
 - (void) getBluetoothState: (CDVInvokedUrlCommand*)command;
